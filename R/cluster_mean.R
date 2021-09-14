@@ -15,7 +15,8 @@
 #' @param clobber logical; to control behavior when a column <label>_m or <label>_s already exists. TRUE: overwrite existing column. FALSE: exit function (default=FALSE)
 #'
 #' @return data.frame,tibble
-#'
+#' @docType package
+#' @name cluster_mean
 #' @examples
 #' df <- tibble(x=rnorm(10), g=rep(c(0,1),5))
 #' df <- cluster_mean(df, 'x', 'g')
@@ -34,6 +35,7 @@
 #'  9 -0.830       0 -0.565 -0.265
 #' 10 -0.00634     1  0.280 -0.286
 #'
+#' @export
 cluster_mean <- function(df, x, g, label=x, clobber=FALSE) {
   require(dplyr)
   # set up new column names
