@@ -1,2 +1,2 @@
 # kyutil
-R package with functions I have found useful
+R package with custom functions I have found useful
