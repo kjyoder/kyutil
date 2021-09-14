@@ -1,0 +1,13 @@
+Package: kyutil
+Type: Package
+Title: Custom functions I have found useful
+Version: 0.1.0
+Author: Keith Yoder
+Maintainer: The package maintainer <kjyoder@gmail.com>
+Description: Useful functions
+    * cluster_mean() for adding cluster-centered and cluster-mean values
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Depends: dplyr
+RoxygenNote: 7.1.2
