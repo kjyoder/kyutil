@@ -5,7 +5,7 @@
 \alias{cluster_mean}
 \title{Perform cluster mean centering}
 \usage{
-cluster_mean(df, x, g, label = x, clobber = FALSE)
+cluster_mean(df, x, g, label, clobber = FALSE)
 }
 \arguments{
 \item{df}{data.frame containing the variables}
