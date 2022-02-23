@@ -3,3 +3,4 @@
 export(cluster_mean)
 export(cluster_scale)
 export(poly_ortho)
+export(scale_col)
